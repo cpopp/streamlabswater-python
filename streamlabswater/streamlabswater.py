@@ -1,3 +1,9 @@
+"""Unofficial Python library for the Streamlabs Water API.
+
+This library allows you to retrieve water usage information as well as
+manage the away mode for your locations.
+"""
+
 import requests
 
 
