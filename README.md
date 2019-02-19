@@ -42,10 +42,12 @@ With this we can now query the current water usage summary:
 Or retrieve the current away mode for the location:
 
     location = client.get_location(location_id)
+
     home_or_away = location['homeAway']
+
     if home_or_away == 'home':
         print("away mode not activated")
-    else if home_or_away == 'away':
+    elif home_or_away == 'away':
         print("away mode is activated")
 
 Finally we can use the locationId to change the away mode for the location:
