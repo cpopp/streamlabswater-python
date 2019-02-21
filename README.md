@@ -6,7 +6,7 @@ This library can be used to retrieve water usage and manage the away mode of you
 
 ## Installation
 
-The easiest way to istall the library is via pip:
+The easiest way to install the library is via pip:
 
     $ pip install streamlabswater
 
